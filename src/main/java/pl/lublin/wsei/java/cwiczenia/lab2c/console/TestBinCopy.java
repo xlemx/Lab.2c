@@ -12,7 +12,7 @@ public class TestBinCopy {
         long startTime = System.nanoTime();
 
         try {
-            in = new FileInputStream("sample 1920-1280. tiff");
+            in = new FileInputStream("sample_1920×1280.tiff");
             out = new FileOutputStream ("img_copy.tiff");
             int c;
 
